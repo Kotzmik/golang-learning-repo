@@ -45,4 +45,6 @@ func main() {
   whatAmI(1)
   whatAmI("hey")
 
+  x:=213.7
+  fmt.Printf("%T", x) // najszybszy i najprosszy sposób na sprawdzenie typu zmiennej
 }
